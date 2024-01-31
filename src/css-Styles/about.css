@@ -1,0 +1,34 @@
+.about-us-page {
+    width: 100vw;
+    min-height: calc(100vh - 66px);
+    font-family: "Times New Roman", Times, serif;
+    color:#FFDB58;
+    overflow-y: auto; 
+    background-image: url('../quincy-photos/rohan-g--mwNJswDlXE-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.about-us-page h1 {
+    margin-top: 0em;
+    text-align: center;
+}
+
+.about-us-section {
+    width: 50%;
+    margin-top: 10px;
+    padding: 1em; 
+}
+
+.about-us-section h2 {
+    margin-right: 0.5em;
+    color:#E2725B;
+    margin-top: 0;
+}
+
+

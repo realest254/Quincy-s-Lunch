@@ -1,0 +1,74 @@
+/* Styles for the contact page */
+.contact-page {
+    width: 100vw;
+    min-height: calc(100vh - 66px);
+    font-family: Arial, sans-serif;
+    overflow-y: auto; 
+    background-image: url('../quincy-photos/robert-anderson-PQer8ukapI8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.contact-page h1{
+    text-align: center;
+}
+.contact-section {
+    width: 50%;
+    margin-top: 10px;
+    padding: 1em; 
+}
+
+.contact-section h2 {
+    margin-right: 0.5em;
+    color: #555;
+    margin-top: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+    justify-content: center;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; 
+    padding: 0.5em; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 5em; 
+}
+
+.contact-form button {
+    width: 5em;
+    padding: 8px 16px; 
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
